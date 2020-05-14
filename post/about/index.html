@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>关于 | Silent Forest | 寂静の森</title>
-<link rel="shortcut icon" href="https://silent-forest.github.io/favicon.ico?v=1589421424623">
+<link rel="shortcut icon" href="https://silent-forest.github.io/favicon.ico?v=1589422409256">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://silent-forest.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="关于 | Silent Forest | 寂静の森 - Atom Feed" href="https://silent-forest.github.io/atom.xml">
@@ -28,7 +28,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://silent-forest.github.io">
-  <img class="avatar" src="https://silent-forest.github.io/images/avatar.png?v=1589421424623" alt="">
+  <img class="avatar" src="https://silent-forest.github.io/images/avatar.png?v=1589422409256" alt="">
   </a>
   <h1 class="site-title">
     Silent Forest | 寂静の森
@@ -127,6 +127,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '858fab57ffba74f77a9c',
+    clientSecret: '77f059b7448ac562d590700bb09ca786eb93bce0',
+    repo: 'silent-forest.github.io',
+    owner: 'silent-forest',
+    admin: ['silent-forest'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
